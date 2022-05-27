@@ -1,0 +1,122 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+html {
+  background-color: #D5F4FA;
+  padding-top: 1rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #0081C3;
+  text-shadow: 1px 1px black;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+
+}
+
+h3 {
+  font-weight: 300;
+
+}
+
+fieldset {
+  border: 0;
+
+}
+
+.grupo {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.campo {
+  padding-bottom: 20px;
+  
+}
+
+.linguagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+
+  padding-top: 5px;
+  
+}
+
+.linguagens_separada {
+  display: flex;
+  gap:5px;
+  align-items: center;
+
+}
+
+
+input {
+  height: 1.5rem;
+
+  border-radius: 5px;
+  border: 1px solid rgb(32, 34, 71);
+}
+
+select {
+  height: 1.5rem;
+  width: 200px;
+
+  text-align: center;
+
+  border-radius: 5px;
+  border: 1px solid rgb(32, 34, 71);
+  
+}
+
+textarea {
+  resize: none;
+
+  width: 60%;
+  height: 9rem;
+
+  font-size: 1.1rem;
+}
+
+
+button {
+  cursor:pointer;
+
+  height: 2.2rem;
+  width: 4.6rem;
+  margin-top: 20px;
+  
+
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  background-color: #0081C3;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button:hover {
+
+  transform: translateY(-10px);
+  transition: transform 350ms;
+}
+

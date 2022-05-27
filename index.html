@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Formulário DEV</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Formulário para entrevista de emprego DEV</h1>
+
+    <form>
+
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="nome"><h2>Nome</h2></label>
+          <input type="text" name="nome" id="nome">
+        </div>
+
+        <div class="campo">
+          <label for="sobrenome"><h2>Sobrenome</h2></label>
+          <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+      </fieldset>
+
+      <div class="campo">
+        <label for="email"><h2>E-mail</h2></label>
+        <input type="email" name="email" id="email">
+      </div>
+
+      <div class="campo">
+        <label for="senioridade"><h2>Senioridade</h2></label>
+
+        <select id="senioridade" required>
+          <option selected disabled value=""><h2>Selecione</h2></option>
+          <option><h3>Júnior</h3></option>
+          <option><h3>Pleno</h3></option>
+          <option><h3>Sênior</h3></option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label><h2>Em que área você se ve atuando ?</h2></label>
+
+        <label>
+          <input type="radio" name="dev" value="frontend"><h3>Front-end</h3>
+        </label>
+
+        <label>
+          <input type="radio" name="dev" value="backend"><h3>Back-end</h3>
+        </label>
+
+        <label>
+          <input type="radio" name="dev" value="fullstack"><h3>Fullstack</h3>
+        </label>
+      </div>
+
+      <fieldset>
+        <label for=""><h2>Selecione as tecnologias que você é familiarizado</h2></label>
+
+        <div id="check" class="campo linguagens">
+
+          <div class="linguagens_separada">
+
+            <label for="tecnologia1"><h3>HTML</h3></label>
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML" class="linguagens">
+          </div>
+
+          <div id="check" class="linguagens_separada">
+
+            <label for="tecnologia2"><h3>CSS</h3></label>
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS" class="linguagens">
+          </div>
+
+          <div id="check" class="linguagens_separada">
+
+            <label for="tecnologia3"><h3>JavaScript</h3></label>
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript" class="linguagens">
+          </div>
+
+          <div id="check" class="linguagens_separada">
+
+            <label for="tecnologia4"><h3>PHP</h3></label>
+            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP" class="linguagens">
+          </div>
+
+          <div id="check" class="linguagens_separada">
+            <label for="tecnologia5"><h3>C#</h3></label>
+            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#" class="linguagens">
+          </div>
+
+          <div id="check" class="linguagens_separada">
+            <label for="tecnologia6"><h3>Python</h3></label>
+            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python" class="linguagens">
+          </div>
+
+          <div id="check" class="linguagens_separada">
+            <label for="tecnologia7"><h3>Java</h3></label>
+            <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java" class="linguagens">
+          </div>
+
+          <div id="check" class="linguagens_separada">
+            <label for="tecnologia8"><h3>Git</h3></label>
+            <input type="checkbox" id="tecnologia8" name="tecnologia8" value="Git" class="linguagens">
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="campo2">
+        <label for="vaga">
+          <h2>Porque você acha que deve ser escolhido para essa vaga ?</h2></label>
+        <br>
+        <textarea id="vaga" name="vaga" rows="4" cols="10"></textarea>
+      </div>
+
+      <button class="botao" type="submit">Envie</button>
+
+    </form>
+  </div>
+</body>
+
+</html>
